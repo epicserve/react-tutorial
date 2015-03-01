@@ -1,6 +1,7 @@
 {
   "name": "react-tutorial",
   "dependencies": {},
+  "repository": "",
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-livereload": "^3.8.0",

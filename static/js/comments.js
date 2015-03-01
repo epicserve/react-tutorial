@@ -100,6 +100,7 @@ var CommentForm = React.createClass({displayName: "CommentForm",
   render: function() {
     var btn_classes = "btn btn-primary",
         label_classes = "col-xs-3 col-sm-2 col-md-1 col-lg-1",
+        button_offset_classes = "col-xs-offset-3 col-sm-offset-2 col-md-offset-1 col-lg-offset-1",
         input_classes = "col-xs-9 col-sm-10 col-md-11 col-lg-11";
 
     return (
@@ -117,7 +118,7 @@ var CommentForm = React.createClass({displayName: "CommentForm",
           )
         ), 
         React.createElement("div", {className: "form-group"}, 
-          React.createElement("div", {className: "col-sm-offset-2 col-sm-10"}, 
+          React.createElement("div", {className: button_offset_classes + ' ' + input_classes}, 
             React.createElement("button", {type: "submit", className: btn_classes}, "Post")
           )
         )
