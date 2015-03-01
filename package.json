@@ -1,0 +1,11 @@
+{
+  "name": "react-tutorial",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-livereload": "^3.8.0",
+    "gulp-react": "^2.0.0",
+    "gulp-watch": "^4.1.1",
+    "react-tools": "^0.12.2"
+  }
+}

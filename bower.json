@@ -1,0 +1,21 @@
+{
+  "name": "react-0.12.2",
+  "version": "0.0.0",
+  "authors": [
+    "Brent O'Connor <epicserve@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.12.2",
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2",
+    "showdown": "~0.3.4"
+  }
+}
