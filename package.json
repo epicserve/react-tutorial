@@ -7,6 +7,14 @@
     "gulp-livereload": "^3.8.0",
     "gulp-react": "^2.0.0",
     "gulp-watch": "^4.1.1",
+    "jest-cli": "^0.4.0",
     "react-tools": "^0.12.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "src/preprocessor.js",
+    "unmockedModulePathPatterns": ["node_modules/react"]
   }
 }
